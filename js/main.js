@@ -75,7 +75,7 @@ require([
         "esri/urlUtils",
         "esri/request",
         "esri/lang",
-        "esri/calcite"
+        "esri/calcite",
 
         "dojo/domReady!"],
     function (win, array, declare, fx, lang,
