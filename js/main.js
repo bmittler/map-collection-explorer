@@ -75,6 +75,7 @@ require([
         "esri/urlUtils",
         "esri/request",
         "esri/lang",
+        "esri/Calcite"
 
         "dojo/domReady!"],
     function (win, array, declare, fx, lang,
@@ -82,7 +83,7 @@ require([
               DnD, Grid, editor, Selection, Keyboard, mouseUtil, Button, HorizontalSlider, BorderContainer, ContentPane, registry,
               OAuthInfo, arcgisPortal, arcgisUtils, Geocoder, Extent, Point, webMercatorUtils, esriId, SpatialReference, Graphic, ArcGISDynamicMapServiceLayer,
               ArcGISImageServiceLayer, ImageServiceParameters, MosaicRule, Map, SimpleFillSymbol, SimpleLineSymbol, SimpleMarkerSymbol, Color,
-              Query, QueryTask, urlUtils, esriRequest, esriLang) {
+              Query, QueryTask, urlUtils, esriRequest, esriLang, Calcite ) {
 
         var map,
             imageServiceLayer,
